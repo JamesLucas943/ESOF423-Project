@@ -50,6 +50,36 @@ public class Questionnaire_Application extends JFrame {
             @Override
           public void actionPerformed(ActionEvent evt){personal_info();}
            });
+        option2.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent evt){
+                ZeroFeatRelease zfr = new ZeroFeatRelease();
+                zfr.main();
+            }
+        });
+        option3.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent evt){
+                ZeroFeatRelease zfr = new ZeroFeatRelease();
+                zfr.main();
+            }
+        });
+        option4.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent evt){
+                ZeroFeatRelease zfr = new ZeroFeatRelease();
+                zfr.main();
+            }
+        });
+        option5.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent evt){
+                ZeroFeatRelease zfr = new ZeroFeatRelease();
+                zfr.main();
+            }
+        });
+
+
         //------------------------------------------------//
         
         buttonGroup.add(option1); //adds buttons to a button group for macro manipulation

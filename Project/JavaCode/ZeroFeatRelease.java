@@ -1,9 +1,8 @@
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
 
 public class ZeroFeatRelease extends JFrame {
-    public static void main(String[] args) {
+    public static void main() {
         JFrame frame = new JFrame("Frame");
         frame.setLayout(new GridLayout(3, 2));
 
@@ -11,7 +10,7 @@ public class ZeroFeatRelease extends JFrame {
         JPanel text_panel = new JPanel(new GridLayout(2,0));
         JPanel next_button_panel = new JPanel();
 
-        frame.setBounds(100,100,500,300);
+        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
 
         JLabel jlabel = new JLabel("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
         //jlabel.setFont(new Font("Verdana",1,15));
@@ -47,6 +46,6 @@ public class ZeroFeatRelease extends JFrame {
         frame.add(next_button_panel);
 
         frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
