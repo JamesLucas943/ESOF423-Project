@@ -1,8 +1,26 @@
-import java.awt.*;import java.awt.event.*;
-import javax.swing.*;
 
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+
+/* Steps For Export to runnable .jar file:
+ * File->Export->Java->Runnable JAR file
+ * Set file/files to package together
+ * Set destination of file on your computer
+ * Select Package libraries (Make sure to delete previous .jar file)*/
+
+@SuppressWarnings("serial")
 public class Questionnaire_Application extends JFrame {
-	
+
+
 	public Questionnaire_Application() {
         JFrame frame = new JFrame("Doctor Assisting Questionnaire");
         frame.setLayout(new GridLayout(3, 2));
@@ -71,8 +89,9 @@ public class Questionnaire_Application extends JFrame {
         f.setVisible(true);
     }
     
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
-    	Questionnaire_Application qa = new Questionnaire_Application();
+		Questionnaire_Application qa = new Questionnaire_Application();
     }
     
 }
