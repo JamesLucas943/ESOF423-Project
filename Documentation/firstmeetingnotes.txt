@@ -11,6 +11,3 @@ Make a flowchart (BIG) will look at next meeting
 		-no epic
 
 all computers, need to make a server.
-
-
-	
